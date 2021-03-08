@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+     color: white;
+     border : color rgb(159, 215, 241);
+   
+}
+h1{
+    text-align: center;
+    color: rgb(233, 106, 138);
+    border-style:solid; color: rgb(145, 138, 247);
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+main{
+    border-style: double;color: rgb(36, 13, 24);
+    margin-left: 30px;
+}
+p{
+    text-align:left;
+}
