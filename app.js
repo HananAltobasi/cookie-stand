@@ -8,11 +8,9 @@ let seattle={
     hourArr:[],
 
     numOfCustomer:function(){
-        let maxnum=this.max;
-        let minnum=this.min;
-       let generator=Math.floor(Math.random()*(maxnum-minnum+1)+minnum);
-       return generator;
-    },
+        let generator=Math.floor(Math.random()*(this.max-this.min+1)+this.min);
+        return generator;
+     },
 
     NumOfCookies:function(){
         let gene=Math.floor(this.avg * this.numOfCustomer());
@@ -32,7 +30,6 @@ let seattle={
             container.appendChild(list);
         }
    }, 
-
 };
 //////////////////////////////////////////////////////////////
 let tokyo={
@@ -44,9 +41,7 @@ let tokyo={
     hourArr:[],
 
     numOfCustomer:function(){
-        let maxnum=this.max;
-        let minnum=this.min;
-       let generator=Math.floor(Math.random()*(maxnum-minnum+1)+minnum);
+       let generator=Math.floor(Math.random()*(this.max-this.min+1)+this.min);
        return generator;
     },
 
@@ -70,7 +65,7 @@ let tokyo={
    }, 
 
 };
-
+//////////////////////////////////////
 let dubai={
     name:'dubai',
     min:11,
@@ -80,11 +75,9 @@ let dubai={
     hourArr:[],
     
     numOfCustomer:function(){
-        let maxnum=this.max;
-        let minnum=this.min;
-       let generator=Math.floor(Math.random()*(maxnum-minnum+1)+minnum);
-       return generator;
-    },
+        let generator=Math.floor(Math.random()*(this.max-this.min+1)+this.min);
+        return generator;
+     },
 
     NumOfCookies:function(){
         let gene=Math.floor(this.avg * this.numOfCustomer());
@@ -106,7 +99,7 @@ let dubai={
    }, 
 
 };
-
+/////////////////////////////////////////
 let paris={
     name:'paris',
     min:20,
@@ -116,11 +109,9 @@ let paris={
     hourArr:[],
     
     numOfCustomer:function(){
-        let maxnum=this.max;
-        let minnum=this.min;
-       let generator=Math.floor(Math.random()*(maxnum-minnum+1)+minnum);
-       return generator;
-    },
+        let generator=Math.floor(Math.random()*(this.max-this.min+1)+this.min);
+        return generator;
+     },
 
     NumOfCookies:function(){
         let gene=Math.floor(this.avg * this.numOfCustomer());
@@ -142,7 +133,7 @@ let paris={
    }, 
 
 };
-
+///////////////////////////////////////////////
 let lima={
     name:'lima',
     min:2,
@@ -152,11 +143,9 @@ let lima={
     hourArr:[],
     
     numOfCustomer:function(){
-        let maxnum=this.max;
-        let minnum=this.min;
-       let generator=Math.floor(Math.random()*(maxnum-minnum+1)+minnum);
-       return generator;
-    },
+        let generator=Math.floor(Math.random()*(this.max-this.min+1)+this.min);
+        return generator;
+     },
 
     NumOfCookies:function(){
         let gene=Math.floor(this.avg * this.numOfCustomer());
@@ -178,7 +167,7 @@ let lima={
    }, 
 
 };
-
+/////////////////////////////////////
 seattle.render();
 tokyo.render();
 dubai.render();
