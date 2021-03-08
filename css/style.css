@@ -6,12 +6,32 @@ header{
 }
 h1{
     text-align: center;
-    color: rgb(233, 106, 138);
-    border-style:solid; color: rgb(145, 138, 247);
+    color: rgb(27, 9, 14);
+    border-style:solid; color: rgb(78, 67, 74);
+}
+body{
+background-color: rgb(230, 209, 182);
 }
 img{
-    width: 250px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
+}
+.u1{
+text-align: left;
+   color:rgb(43, 37, 32);
+   margin: 1px;
+   font-size:x-large;
+   text-decoration:underline;
+}
+.p1{
+    font-size:x-large;
+    color:rgb(43, 37, 32);
+}
+.u2{
+text-align:left;
+   color:rgb(80, 77, 20);
+   margin: 1px;
+   font-size:larger;
 }
 main{
     border-style: double;color: rgb(36, 13, 24);
