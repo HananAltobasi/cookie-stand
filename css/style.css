@@ -1,35 +1,70 @@
 header{
     text-align: center;
-    color: rgb(27, 9, 14);
-    border-style:solid; color: rgb(78, 67, 74);
+    color: rgb(230, 6, 66);
+    margin-top: 50px;
+    /*border-style:solid; color: rgb(179, 136, 163);*/
 }
-body{
-background-color: rgb(230, 209, 182);
-}
+body {
+     background-image:url('https://morb3.com/wp-content/uploads/2020/01/224-iphone-wallpapers-hd-abstract-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%8A%D9%81%D9%88%D9%86-%D8%A7%D9%94%D9%8A%D9%81%D9%88%D9%86-576x1024.jpg');
+      }
 img{
-    width: 500px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
+    float:left;
+    margin-left: 150px;
 }
-.u1{
-text-align: left;
-   color:rgb(43, 37, 32);
-   margin: 1px;
+
+/*.u1{
+    text-align:end;
+   background-color: blanchedalmond;
    font-size:x-large;
    text-decoration:underline;
+}*/
+#li2{
+    display: inline-block;
+    font-size:x-large;
+    background-color: blanchedalmond;
+    width: 70px;
+    margin-top: 40px;
+    margin-right: 50px;
 }
+
 .p1{
     font-size:x-large;
-    color:rgb(43, 37, 32);
+    color:rgb(209, 202, 186);
+    margin-bottom: 20px;
 }
-.u2{
-text-align:left;
-   color:rgb(80, 77, 20);
+/*.u2{
+   text-align:left;
+   color:rgb(223, 222, 210);
    margin: 1px;
    font-size:larger;
+}*/
+li{
+    display: inline-block;
+    color:rgb(223, 222, 210);
+    width: 20px;
+    margin: 70px;
+    font-size:larger;
 }
-main{
+table{
+    color:rgba(92, 226, 215, 0.815);
+
+}
+/*main{
     border-style: double;color: rgb(36, 13, 24);
     margin-left: 20px;
     margin-right: 20px;
+}*/
+form{
+    font-size:x-large;
 }
+footer{
+    background-color: blanchedalmond;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 30px;
+    text-align: center;
+}
+ 
 
