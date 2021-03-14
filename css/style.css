@@ -28,7 +28,18 @@ img{
     margin-top: 40px;
     margin-right: 50px;
 }
+.ul3{
+    margin-bottom: 200px;
+}
+#li3 img{
+    width: 150px;
+    height: 110px;
+    float:left;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;
 
+}
 .p1{
     font-size:x-large;
     color:rgb(209, 202, 186);
@@ -59,7 +70,7 @@ table{
 form{
     font-size:x-large;
 }
-footer{
+footer h5{
     background-color: blanchedalmond;
     margin-left: 100px;
     margin-right: 100px;
