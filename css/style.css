@@ -23,6 +23,8 @@ img{
 #li2{
     display: inline-block;
     font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(236, 179, 179, 0.945);
     background-color: blanchedalmond;
     width: 70px;
     margin-top: 40px;
@@ -42,15 +44,13 @@ img{
 }
 .p1{
     font-size:x-large;
-    color:rgb(209, 202, 186);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(236, 179, 179, 0.945);
     margin-bottom: 20px;
 }
-/*.u2{
-   text-align:left;
-   color:rgb(223, 222, 210);
-   margin: 1px;
-   font-size:larger;
-}*/
+.u2{
+font-family: Georgia, 'Times New Roman', Times, serif;  
+}
 li{
     display: inline-block;
     color:rgb(223, 222, 210);
@@ -59,8 +59,13 @@ li{
     font-size:larger;
 }
 table{
-    color:rgba(92, 226, 215, 0.815);
-
+    color:rgb(253, 255, 255);
+    background-color: rgba(95, 158, 160, 0.377);
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+form{
+    color:rgb(253, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 /*main{
     border-style: double;color: rgb(36, 13, 24);
@@ -71,11 +76,13 @@ form{
     font-size:x-large;
 }
 footer h5{
-    background-color: blanchedalmond;
+    background-color: rgb(48, 45, 77);
     margin-left: 100px;
     margin-right: 100px;
     height: 30px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(236, 179, 179, 0.945);
 }
  
 
